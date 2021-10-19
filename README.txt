@@ -15,10 +15,6 @@ kill a child process or execute an invalid bash command using a child process bu
 process still shows on the bglist. But if it happens (with 0.01% likelihood that the OS uses 
 a very long time killing this process) , the next time you execute bglist you would not
  definitely see it again.
- 
-All coding and debugging is executed using ECS348 lab Linux environment. If there is anything
-unexpected happens like bugs or compilation errors, please use ECS348 lab Linux environment
-to do your testing and marking.
 
 If you want to run inf.c using bg, compile inf.c using "gcc inf.c -o inf" before you execute
 'make'.
@@ -28,5 +24,3 @@ stime are very likely to be 0 because this application spends a lot time sleepin
 In order to view more non-zero pstat information including utime, stime, rss and ctext switches,
 please let PMan run some application that involves hard drive or ROM I/O, then we could see
 the correct non-zero information in pstat.
-
-Thank you!
